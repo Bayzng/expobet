@@ -1,0 +1,117 @@
+@media screen and (min-width: 350px) {
+    .Footer {
+        background-image: url(../../../assets/footerImg.avif);
+        min-height: 200px;
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* background-attachment: fixed; */
+        padding: 5rem 0; 
+    }
+    
+    .--Footer-Content {
+        color: white;
+    }
+    
+    .--Footer-Info {
+        margin-left: 15px;
+        font-size: 15px;
+        display: flex;
+        gap: 1rem;
+    }
+    
+    .--Footer-Icon {
+        display: flex;
+        gap: 3rem;
+        margin-left: 7rem;
+        margin-top: 2rem;
+    }
+    
+    .Footer-Soon {
+        margin-left: 10rem;
+        margin-top: 1.5rem;
+    }
+    
+    .--Footer-Download {
+        display: flex;
+        gap: 1rem;
+        margin-left: 5rem;
+    }
+    
+    .--Footer-Download img {
+        width: 7rem;
+        margin-top: 1.5rem;
+    }
+    
+    
+    .--Footer-Last {
+        text-align: center;
+        margin-top: 1.5rem;
+    }
+    
+    
+    .--Footer-Last > * {
+        margin-bottom: 1rem; 
+    }
+    
+}
+
+
+
+@media screen and (min-width: 1050px) {
+    .Footer {
+        background-image: url(../../../assets/footerImg.avif);
+        min-height: 200px;
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* background-attachment: fixed; */
+        padding: 5rem 0; 
+    }
+    
+    .--Footer-Content {
+        margin-left: 30rem;
+        color: white;
+    }
+    
+    .--Footer-Info {
+        display: flex;
+        gap: 3rem;
+    }
+    
+    .--Footer-Icon {
+        display: flex;
+        gap: 3rem;
+        margin-left: 7rem;
+        margin-top: 2rem;
+    }
+    
+    .Footer-Soon {
+        margin-left: 10rem;
+        margin-top: 1.5rem;
+    }
+    
+    .--Footer-Download {
+        display: flex;
+        gap: 1rem;
+        margin-left: 5rem;
+    }
+    
+    .--Footer-Download img {
+        width: 7rem;
+        margin-top: 1.5rem;
+    }
+    
+    
+    .--Footer-Last {
+        text-align: center;
+        margin-right: 35rem;
+        margin-top: 1.5rem;
+    }
+    
+    
+    .--Footer-Last > * {
+        margin-bottom: 1rem; 
+    }
+    
+}

@@ -1,0 +1,90 @@
+@media screen and (min-width: 350px) {
+    .Hero {
+        background-image: url(../../../assets/hero1-min.jpg);
+        min-height: 100vh;
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    
+    .--Hero-Content {
+        position: absolute;
+        margin-top: 2rem;
+        left: 3%;
+        background-color: black;
+        border-radius: 10px;
+        width: 23rem;
+        height: 20rem;
+        top: 30%;
+        color: white;
+    }
+    
+    .--Hero-Table {
+        padding: 20px;
+    }
+    
+    .--table-head {
+        display: flex;
+        gap: 1rem;
+        color: yellow;
+    }
+    
+    .--table-data {
+        margin-top: 2rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .--table-data img {
+        width: 1rem;
+        border-radius: 5px;
+    }
+}
+
+
+
+
+@media screen and (min-width: 1050px) {
+    .Hero {
+        background-image: url(../../../assets/hero1-min.jpg);
+        min-height: 100vh;
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    
+    .--Hero-Content {
+        position: absolute;
+        margin-top: 5rem;
+        left: 30%;
+        background-color: black;
+        border-radius: 20px;
+        width: 40rem;
+        height: 20rem;
+        top: 25%;
+        color: white;
+    }
+    
+    .--Hero-Table {
+        padding: 20px;
+    }
+    
+    .--table-head {
+        display: flex;
+        gap: 5.2rem;
+        color: yellow;
+    }
+    
+    .--table-data {
+        margin-top: 2rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .--table-data img {
+        width: 1rem;
+        border-radius: 5px;
+    }
+}

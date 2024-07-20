@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
+
+.Navbar {
+  background-color: black;
+  color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+
+@media screen and (min-width: 350px) {
+  .--Navbar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+}
+
+@media screen and (min-width: 1050px) {
+  .--Navbar-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+  }
+}
+
+.--Navbar-expobet h2 {
+  margin: 0;
+}
+
+span {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+}
+
+.spanX {
+  background-color: green;
+}
+
+.span247 {
+  color: yellow;
+  background-color: none;
+}
+
+.--Navbar-Data {
+  display: flex;
+  gap: 2rem;
+}
+
+.--Navbar-Data button {
+  padding: 5px;
+  width: 5rem;
+  border: none;
+  background-color: yellow;
+  color: black;
+}
+
+.--Navbar-icon {
+  display: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .--Navbar-Data {
+    display: none;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: black;
+    position: absolute;
+    top: 70px; /* Adjust based on your navbar height */
+    width: 100%;
+    left: 0;
+    padding: 20px;
+  }
+  
+  .--Navbar-Data.open {
+    display: flex;
+  }
+
+  .--Navbar-icon {
+    display: block;
+  }
+}

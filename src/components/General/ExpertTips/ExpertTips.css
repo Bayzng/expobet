@@ -1,0 +1,154 @@
+@media screen and (min-width: 350px) {
+    .ExpertTips {
+        background-image: url(../../../assets/hero4.jpg);
+        min-height: 600px;
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 5rem 0; 
+    }
+    
+    .--ExpertTips-Header h2 {
+        background-color: black;
+        color: white;
+        padding: 10px;
+        width: 50%;
+        margin: 0 auto;
+        text-align: center;
+        position: relative;
+        z-index: 1;
+    }
+    
+    .--ExpertTips {
+        gap: 2rem;
+        margin-left: 5rem;
+        position: relative;
+        z-index: 0; 
+    }
+    
+    .--ExpertTips-Content {
+        background-color: black;
+        color: white;
+        border-radius: 15px;
+        padding: 15px;
+        margin-top: 2rem;
+        width: 80%; 
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+    .--ExpertTips-Content:last-child {
+        background-color: red;
+    }
+    
+    .--ExpertTips-Flex {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 1.5rem;
+    }
+    
+    .--ExpertTips-Ball img {
+        width: 100%;
+        max-width: 10rem;
+        height: auto;
+        margin-bottom: 1.5rem;
+        transition: transform 0.3s ease; /* Add transition for smooth zoom */
+    }
+    
+    .--ExpertTips-Ball img:hover {
+        transform: scale(0.95); /* Zoom out a little on hover */
+    }
+    
+    .--ExpertTips-Odd {
+        margin-top: 1.5rem;
+        display: flex;
+        justify-content: space-between;
+    }   
+    
+    .--ExpertTips-Odd button {
+        padding: 5px;
+        border: none;
+        width: 5rem;
+        color: black;
+        background-color: yellow;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (min-width: 1050px) {
+    .ExpertTips {
+        background-image: url(../../../assets/hero4.jpg);
+        min-height: 700px;
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 5rem 0; 
+    }
+    
+    .--ExpertTips-Header h2 {
+        background-color: black;
+        color: white;
+        padding: 10px;
+        width: 50%;
+        margin: 0 auto;
+        text-align: center;
+        position: relative;
+        z-index: 1;
+    }
+    
+    .--ExpertTips {
+        display: flex;
+        gap: 2rem;
+        margin-left: 15rem;
+        position: relative;
+        z-index: 0; 
+    }
+    
+    .--ExpertTips-Content {
+        background-color: black;
+        color: white;
+        border-radius: 15px;
+        padding: 15px;
+        margin-top: 2rem;
+        width: 17%; 
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+    .--ExpertTips-Content:last-child {
+        background-color: red;
+    }
+    
+    .--ExpertTips-Flex {
+        display: flex;
+    }
+    
+    .--ExpertTips-Ball img {
+        width: 100%;
+        max-width: 10rem;
+        height: auto;
+        margin-bottom: 1.5rem;
+        transition: transform 0.3s ease; /* Add transition for smooth zoom */
+    }
+
+    .--ExpertTips-Ball img:hover {
+        transform: scale(0.95); /* Zoom out a little on hover */
+    }
+    
+    .--ExpertTips-Odd {
+        margin-top: 1.5rem;
+        display: flex;
+        justify-content: space-between;
+    }    
+
+    .--ExpertTips-Odd button {
+        padding: 5px;
+        border: none;
+        width: 5rem;
+        color: black;
+        background-color: yellow;
+        border-radius: 10px;
+    }
+}
